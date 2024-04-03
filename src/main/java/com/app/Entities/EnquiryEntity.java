@@ -40,7 +40,7 @@ public class EnquiryEntity {
 	@UpdateTimestamp
 	private LocalDate updatedDate;
 	
-	@JoinColumn(name="consellor_id")
+	@JoinColumn(name="consellorId")
 	@ManyToOne
 	private consellorsEntity consellor;
 
